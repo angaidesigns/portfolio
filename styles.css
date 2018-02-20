@@ -1,0 +1,52 @@
+@font-face {
+	font-family: "AvenirNext-Reg";
+	font-style: normal;
+	font-weight: 300;
+	src: url("../fonts/AvenirNextLTPro-Regular.otf");
+}
+
+body {
+	background-color: #333333;
+}
+
+#navi {
+  font-family: "AvenirNext-Reg", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #095398;
+}
+
+.active {
+    background-color: #095398;
+}
+
+p {
+	font-family: "AvenirNext-Reg", sans-serif;
+	color: white;
+	position: relative;
+	width: 400px;
+	hieght: 100px;
+	top: 100px;
+	left: 50%;
+}
