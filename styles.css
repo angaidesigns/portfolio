@@ -50,3 +50,14 @@ p {
 	top: 100px;
 	left: 50%;
 }
+
+#portfolio {
+	text-align: center;
+}
+
+#port {
+	max-width: 300px;
+	display: inline-block;
+	margin: 0px auto;
+	padding: 30px;
+}
