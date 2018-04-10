@@ -56,8 +56,9 @@ p {
 }
 
 #port {
-	max-width: 300px;
+	max-width: 150px;
+	max-height: 100px;
 	display: inline-block;
 	margin: 0px auto;
-	padding: 30px;
+	padding: 45px;
 }
