@@ -56,9 +56,35 @@ p {
 }
 
 #port {
+	position: relative;
 	max-width: 150px;
 	max-height: 100px;
 	display: inline-block;
 	margin: 0px auto;
 	padding: 45px;
+}
+
+.overlay {
+  position: absolute;
+  top: 45px;
+  height: 200px;
+  width: 200px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FFFFFF;
+}
+
+.fade:hover .overlay {
+  opacity: 0.80;
+}
+
+.text {
+  color: #095398;
+  font-size: 25px;
+	font-family: "AvenirNext-Reg", sans-serif;
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
